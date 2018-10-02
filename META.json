@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Deutsche Bahn Fahrplan API Client",
    "author" : [
       "Edward Francis <edwardafrancis@gmail.com>"
    ],
@@ -42,17 +42,38 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "1.50",
+            "HTTP::Tiny" : "0.076",
+            "JSON::XS" : "3.04",
+            "Moose" : "2.20",
+            "URI" : "1.74",
+            "URI::Encode" : "v1.1.1",
+            "URI::QueryParam" : "1.74",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::Most" : "0.35"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Edward-Francis/API-DeutscheBahn-Fahrplan/issues"
+      },
+      "homepage" : "https://github.com/Edward-Francis/API-DeutscheBahn-Fahrplan",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Edward-Francis/API-DeutscheBahn-Fahrplan.git",
+         "web" : "https://github.com/Edward-Francis/API-DeutscheBahn-Fahrplan"
+      }
+   },
    "version" : "0.01",
+   "x_contributors" : [
+      "Edward Francis <edward.francis@zpg.co.uk>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.27400_02",
    "x_static_install" : 1
 }
