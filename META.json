@@ -49,6 +49,7 @@
             "URI" : "1.74",
             "URI::Encode" : "v1.1.1",
             "URI::QueryParam" : "1.74",
+            "namespace::autoclean" : "0",
             "perl" : "5.008001"
          }
       },
@@ -70,9 +71,11 @@
          "web" : "https://github.com/Edward-Francis/API-DeutscheBahn-Fahrplan"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
-      "Edward Francis <edward.francis@zpg.co.uk>"
+      "Edward Francis <Edward-Francis@users.noreply.github.com>",
+      "Edward Francis <edward.francis@zpg.co.uk>",
+      "Mohammad S Anwar <mohammad.anwar@yahoo.com>"
    ],
    "x_serialization_backend" : "JSON::PP version 2.27400_02",
    "x_static_install" : 1

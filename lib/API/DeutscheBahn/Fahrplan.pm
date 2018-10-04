@@ -4,7 +4,7 @@ use Moose;
 use namespace::autoclean;
 
 # VERSION
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 # IMPORTS
 use Carp;
